@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+    <link
+     href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+     rel="stylesheet"
+    />
+    
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&display=swap" rel="stylesheet">
+
+    <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    
+    <link rel="stylesheet" href="style.css" />
+
+    <title>3d Slider Website - Sahil Khudaniya</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav">
+            <a href="#" class="nav-logo">FRUITFIZZ CO.</a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Shope</a>
+                    </li>
+   
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Careers</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Partnership</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="nav-close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="nav-action">
+                <i class="ri-user-line"></i>
+                <i class="ri-shopping-cart-line"></i>
+
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+   
+    <main>
+      
+      <section class="home" id="home">
+        <div class="swiper first-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide home-data" style="--background-color: hsl(79, 66%, 72%)">
+                    <h1 class="home-title home-title-animate">Pear</h1>
+                </div>
+
+                 <div class="swiper-slide home-data" style="--background-color: hsl(0, 100%, 85%)">
+                    <h1 class="home-title">Apple</h1>
+                </div>
+
+                 <div class="swiper-slide home-data" style="--background-color: hsl(242, 66%, 85%)">
+                    <h1 class="home-title">Exotic</h1>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="home-mockup" id="home-mockup"></div>
+
+        <div class="swiper second-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide home-fruit">
+                  <img src="" alt="" class="home-fruit-img home-fruit-animate"/>  
+                </div>
+
+                 <div class="swiper-slide home-fruit">
+                  <img src="apples.png" alt="" class="home-fruit-img"/>  
+                </div>
+
+                  <div class="swiper-slide home-fruit">
+                  <img src="passion.png" alt="" class="home-fruit-img"/>  
+                </div>
+
+            </div>
+        </div>
+
+        <a href="#" class="home-button">Shop Taste</a>
+      </section>
+    </main>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== GSAP ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+
+
+   
+    <script src="main.js"></script>
+  </body>
+</html>
